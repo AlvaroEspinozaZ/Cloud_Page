@@ -3,10 +3,10 @@ import {Unity, useUnityContext} from "react-unity-webgl";
 
 function Game() {
     const { unityProvider,sendMessage } = useUnityContext({
-        loaderUrl: "/MIo.loader.js",
-        dataUrl: "/MIo.data.unityweb",
-        frameworkUrl: "/MIo.framework.js.unityweb",
-        codeUrl: "/MIo.wasm.unityweb",
+        loaderUrl: "/Builder.loader.js",
+        dataUrl: "/Builder.data.unityweb",
+        frameworkUrl: "/Builder.framework.js.unityweb",
+        codeUrl: "/Builder.wasm.unityweb",
     });
     function handleClickRefresh(){
         sendMessage("GameController","ReloadScene");
