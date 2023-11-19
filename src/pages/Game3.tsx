@@ -3,10 +3,10 @@ import {Unity, useUnityContext} from "react-unity-webgl";
 
 function Game3() {
     const { unityProvider,sendMessage } = useUnityContext({
-        loaderUrl: "/Question.loader.js",
-        dataUrl: "/Question.data.unityweb",
-        frameworkUrl: "/Question.framework.js.unityweb",
-        codeUrl: "/Question.wasm.unityweb",
+        loaderUrl: "/Memor.loader.js",
+        dataUrl: "/Memor.data.unityweb",
+        frameworkUrl: "/Memor.framework.js.unityweb",
+        codeUrl: "/Memor.wasm.unityweb",
     });
     function handleClickRefresh(){
         sendMessage("GameManager","ReloadScene");
@@ -17,7 +17,9 @@ function Game3() {
                 <div className="centered-content">
                     <h1 className="centered-title">React + Unity / Tecsup</h1>
                     <Unity unityProvider={unityProvider} className="centered-unity" />
+                    <div className="centered-content">
                     <button onClick={handleClickRefresh}>Actualizar</button>
+                    </div>
                 </div>
             </div>
 

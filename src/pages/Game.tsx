@@ -3,16 +3,16 @@ import {Unity, useUnityContext} from "react-unity-webgl";
 
 function Game() {
     const { unityProvider,sendMessage } = useUnityContext({
-        loaderUrl: "/Builder.loader.js",
-        dataUrl: "/Builder.data.unityweb",
-        frameworkUrl: "/Builder.framework.js.unityweb",
-        codeUrl: "/Builder.wasm.unityweb",
+        loaderUrl: "/Chiqui1.loader.js",
+        dataUrl: "/Chiqui1.data.unityweb",
+        frameworkUrl: "/Chiqui1.framework.js.unityweb",
+        codeUrl: "/Chiqui1.wasm.unityweb",
     });
     function handleClickRefresh(){
         sendMessage("GameController","ReloadScene");
     }
-    function handleClickQuit(){
-        sendMessage("GameController","ReloadScene");
+    function handleClickPress(){
+        sendMessage("SpawMeteoritos","Press");
     }
     return (
         <>
@@ -23,7 +23,7 @@ function Game() {
                     <div className="centered-content">
                     <button onClick={handleClickRefresh}>Actualizar</button>
                     </div>
-                    <button onClick={handleClickQuit}>Quit</button>
+                    <button onClick={handleClickPress}>Don´tPushMe</button>
                 </div>
             </div>
 
