@@ -1,15 +1,10 @@
 #main-header{
     /*background-color: var(--color1);
     color: var(--color-blanco);*/
-    background-color: grey;
-    color : darkviolet;
+    background-color: #f11010 !important;
+    color : darkviolet !important;
 }
 
 #main-header p{
     margin-bottom: 10px;
 }
-
-#header .container{
-    background-color: red !important;
-}
-

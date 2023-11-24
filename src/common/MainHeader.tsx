@@ -1,3 +1,4 @@
+import './MainHeader.css'
 function MainHeader() {
     return (
         <header id="main-header" >
