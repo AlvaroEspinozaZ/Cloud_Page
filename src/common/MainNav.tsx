@@ -2,10 +2,11 @@ import './MainNav.css'
 import { Link } from "react-router-dom"
 function MainNav() {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top" id="main-Nav-Color" >
-                <div className="container">
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0" >
+
+        <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top" id="main-Nav-Color">
+            <div className="container">
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <Link className="nav-link " to="/">Home</Link>
                             </li>

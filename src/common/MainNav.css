@@ -2,3 +2,23 @@
     background-color: var(--color-gris-oscuro);
     color: var(--color-gris-claro);
 }
+.collapse{
+    background-color: white;
+}
+
+.nav-link{
+    margin: 5px;
+    padding: 10px;
+    color: #ffffff !important; /* Color de texto amarillo brillante */
+    background: radial-gradient(circle, #1750e7, #15da5a) !important; /* Degradado de rojo a negro */
+    background-size: 100%;
+    border: 1px solid #2138ab; /* Borde rojo */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px #ca00ff; /* Sombra */
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.nav-link li:hover {
+    color: #1616cb; /* Cambio de color de texto al pasar el ratón */
+    background: radial-gradient(circle, #000000, #10317a);
+}
