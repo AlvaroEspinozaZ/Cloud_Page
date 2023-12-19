@@ -1,6 +1,80 @@
-#main-footer{
-    background-color: var(--color-gris-oscuro);
-    color: var(--color-gris-claro);
+/* Font-family común para ambos */
+body {
+    font-family: 'Bungee', cursive; /* Puedes ajustar la fuente según tus preferencias */
+}
 
+/* Estilo para #main-header */
+#main-header {
+    background-color: var(--color-gris-oscuro) !important;
+    color: olivedrab;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#main-header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: white;
+}
+
+#main-header p {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: white;
+}
+
+#main-header a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+#main-header a:hover {
+    color: lightgray;
+}
+
+/* Estilo para #main-footer */
+#main-footer {
+    background-color: #333 !important; /* Gris oscuro o morado más profundo */
+    color: #fff !important; /* Texto en blanco para un buen contraste */
     padding: 45px 0;
+    text-align: center;
+    border-top: 2px solid #888; /* Un tono más claro para el borde superior */
+}
+
+#main-footer a {
+    color: var(--bs-red);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+#main-footer a:hover {
+    color: var(--bs-white);
+}
+
+#main-footer p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-family: 'Bungee', cursive; /* Cambia la fuente según tus preferencias */
+}
+
+#main-footer .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#main-footer .social-icons li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#main-footer .social-icons a {
+    color: var(--bs-white);
+    font-size: 1.5em;
+    transition: color 0.3s ease-in-out;
+}
+
+#main-footer .social-icons a:hover {
+    color: var(--bs-purple);
 }

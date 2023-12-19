@@ -1,0 +1,13 @@
+/* Asegúrate de ajustar la ruta de la fuente según tu estructura de carpetas */
+/*@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');*/
+
+.centered-title {
+    font-family: 'Bungee', cursive;
+    /* Otros estilos para el título centrado si es necesario */
+}
+
+/* Aplicando el mismo tipo de letra a h5 y p */
+h5, p {
+    font-family: 'Bungee', cursive;
+    /* Otros estilos para h5 y p si es necesario */
+}

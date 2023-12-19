@@ -1,10 +1,30 @@
-#main-header{
-    /*background-color: var(--color1);
-    color: var(--color-blanco);*/
-    background-color: #f11010 !important;
-    color : darkviolet !important;
+#main-header {
+    background-color: var(--color-gris-oscuro);
+    color: olivedrab;
+    padding: 20px 0;
+    text-align: center;
 }
 
-#main-header p{
+#main-header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: 'Bungee', cursive; /* Cambiado el tipo de fuente para el título */
+    color: olivedrab;
+}
+
+#main-header p {
     margin-bottom: 10px;
+    font-size: 1.5em;
+    font-family: 'Lobster', cursive; /* Cambiado el tipo de fuente para el párrafo */
+    color: olivedrab;
+}
+
+#main-header a {
+    color: olivedrab;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+#main-header a:hover {
+    color: lightgray;
 }

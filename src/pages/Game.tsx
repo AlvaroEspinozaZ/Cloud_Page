@@ -1,5 +1,5 @@
 import {Unity, useUnityContext} from "react-unity-webgl";
-
+import './Letras.css'
 
 function Game() {
     const { unityProvider,sendMessage } = useUnityContext({
